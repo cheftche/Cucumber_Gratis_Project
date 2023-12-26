@@ -40,11 +40,7 @@ public class US_01_LoginStepDefinitions {
         clickElementByJS(waitForVisibility(gratis.submitButton, 30));
         ;
     }
-    @Then("close the application")
-    public void close_the_application() {
-        waitFor(2);
-        Driver.closeDriver();
-    }
+
 
 
 
