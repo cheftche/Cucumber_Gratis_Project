@@ -13,9 +13,9 @@ public class HomePage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "(//a[@href= \"/login\"])[3]")
-    public WebElement GirisYap;  // Sayfanın altındaki
-    @FindBy(xpath = "//input[@type= \"text\"]")
+    @FindBy(xpath = "(//a[@role=\"link\"])[2]")
+    public WebElement GirisYap;  // Sayfanın sağ üst köşesinde
+    @FindBy(xpath = "//input[@type=\"text\"]")
     public WebElement emailBox; // Sayfanın altındaki
     @FindBy(xpath = "//button[@class= \"round-btns\"]")
     public WebElement submitButton; // Sayfanın altındaki
@@ -23,6 +23,8 @@ public class HomePage {
     public WebElement passwordBox;  // Sayfanın altındaki
     @FindBy(xpath = "//span[@class=\"ng-arrow-wrapper\"]")
     public WebElement akilliSiralamaDropdown;
+    @FindBy(xpath = "//ul[@class=\"logged-drop\"]/li/a")
+    public WebElement droptakiGirisYap;
 
 
 }
