@@ -10,5 +10,6 @@ Feature: US08_Urun_Stok_Kontrolu
     And Akilli siralama ile siralar
     And Sayfadaki urunlerden rastgele secer
     Then secilen urunun stok durumunu dogrular
-
+    And Urun ekran kaydini alir
+    Then close the application
 
