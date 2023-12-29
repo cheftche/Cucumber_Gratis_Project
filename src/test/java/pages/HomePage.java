@@ -24,5 +24,8 @@ public class HomePage {
     @FindBy(xpath = "//span[@class=\"ng-arrow-wrapper\"]")
     public WebElement akilliSiralamaDropdown;
 
+    @FindBy(xpath = "(//*[@href='/magazalarimiz'])[1]")
+    public WebElement magazalarimizButton;
+
 
 }
