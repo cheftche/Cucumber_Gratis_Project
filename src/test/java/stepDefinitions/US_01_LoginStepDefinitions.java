@@ -11,7 +11,9 @@ import utilities.Driver;
 
 import java.time.Duration;
 
+import static utilities.Driver.driver;
 import static utilities.JSUtils.clickElementByJS;
+import static utilities.JSUtils.scrollDownByJS;
 import static utilities.ReusableMethods.*;
 
 
@@ -23,12 +25,13 @@ public class US_01_LoginStepDefinitions {
     }
     @When("Giris yap butonuna tiklar")
     public void giris_yap_butonuna_tiklar() {
-        scrollIntoView2(gratis.GirisYap);
+        scrollDownByJS();
         gratis.GirisYap.click();
-        waitFor(5);
+        gratis.droptakiGirisYap.click();
     }
     @Then("Gecerli {string} girer")
     public void gecerliGirer(String kullanici_adi) {
+
       waitForVisibility(gratis.emailBox,30).sendKeys(kullanici_adi);
     }
     @Then("Gecerli {string} bilgisini girer")
@@ -38,13 +41,8 @@ public class US_01_LoginStepDefinitions {
     @Then("Giris yap kutusuna tiklar")
     public void giris_yap_kutusuna_tiklar() {
         clickElementByJS(waitForVisibility(gratis.submitButton, 30));
-        ;
     }
-    @Then("close the application")
-    public void close_the_application() {
-        waitFor(2);
-        Driver.closeDriver();
-    }
+
 
 
 

@@ -12,12 +12,16 @@ import utilities.ConfigurationReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
 import static utilities.BrowserUtilities.*;
 import static utilities.Driver.driver;
+import static utilities.JSUtils.scrollIntoVIewJS;
 import static utilities.ReusableMethods.selectRandomEntryFromList;
+import static utilities.ReusableMethods.takeScreenshotOfTheEntirePage;
+import static utilities.ReusableMethods.waitFor;
 
 
 public class CommonStepDefinitions {
@@ -29,6 +33,7 @@ public class CommonStepDefinitions {
     @Given("Kullanici Gratis anasayfasina gider")
     public void kullanici_gratis_anasayfasina_gider() {
         Driver.getDriver().get(ConfigurationReader.getProperty("gratisUrl"));
+        waitForVisibility(driver.findElement(By.xpath("//button[@id=\"banner-accept-button\"]")),10).click();
         waitFor(2);
         Driver.getDriver().switchTo().alert().dismiss();
     }
@@ -38,7 +43,11 @@ public class CommonStepDefinitions {
         List<WebElement> akilliSiralaList = driver.findElements(By.xpath("//span[@class=\"ng-option-label ng-star-inserted\"]"));
         clickWithJS(selectRandomEntryFromList(akilliSiralaList));
     }
-
+    @Then("close the application")
+    public void close_the_application() {
+        waitFor(2);
+        Driver.closeDriver();
+    }
 
 
 

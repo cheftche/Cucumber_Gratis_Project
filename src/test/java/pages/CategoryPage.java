@@ -22,4 +22,5 @@ public class CategoryPage {
     @FindBy(xpath = "//span[@class=\"no-stock\"]")
     public static WebElement urundeStoktaYok;
 
+
 }
