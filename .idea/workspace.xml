@@ -5,37 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231228110123image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231228110125image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231228111341image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231228111342image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231228112115image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231228112117image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231228115649image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229011712image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229011713image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229012101image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229012103image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229120028image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229120029image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229120341image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229121042image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229121044image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229121401image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229121402image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229121700image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229121702image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229122105image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229122107image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229124305image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229124455image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229124723image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229124725image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229125046image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229125048image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229125638image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231229125639image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +19,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2XZ0YO3glb22881rkg2tnIttSUF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -74,12 +44,15 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.TestRunner (1).executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Java Dersleri/TimeToLearnJava/Cucumber_Gratis_Project/src/test/resources/features&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -195,6 +168,13 @@
         <item itemvalue="Cucumber Java.Feature: amazon" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-f644763e9732-97de7592" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

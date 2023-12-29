@@ -26,5 +26,8 @@ public class HomePage {
     @FindBy(xpath = "//ul[@class=\"logged-drop\"]/li/a")
     public WebElement droptakiGirisYap;
 
+    @FindBy(xpath = "(//*[@href='/magazalarimiz'])[1]")
+    public WebElement magazalarimizButton;
+
 
 }
